@@ -1,7 +1,7 @@
 class Pikoclaw < Formula
   desc "High-performance AI agent for developers"
   homepage "https://github.com/PikoClaw/pikoclaw"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
