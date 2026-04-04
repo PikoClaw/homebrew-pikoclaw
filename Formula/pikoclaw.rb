@@ -1,24 +1,24 @@
 class Pikoclaw < Formula
   desc "High-performance AI agent for developers"
   homepage "https://github.com/PikoClaw/pikoclaw"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/PikoClaw/pikoclaw/releases/download/v#{version}/pikoclaw-macos-aarch64"
-      sha256 "f5c301b039156dfc5df5536e3cf7f8b53b6da89017e94e000827101bd3131f6b"
+      sha256 "0c053df7daee737488c1e26f7276fc03753ab4498860bbfc3b53227d69875bed"
     end
     on_intel do
       url "https://github.com/PikoClaw/pikoclaw/releases/download/v#{version}/pikoclaw-macos-x86_64"
-      sha256 "dc7bb660e67ee97e8107331336a0dda35e8435d1975103f1c7798904c50a17fc"
+      sha256 "697b3f62adafdf6ac859c0ed28491b93038620599ebad520ff5d88a4718a3d22"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/PikoClaw/pikoclaw/releases/download/v#{version}/pikoclaw-linux-x86_64"
-      sha256 "dfefe0bebf685d5aa1034a3b1aa58be0bc0a3a3ed041ce8075b6e770f78d34b6"
+      sha256 "a9967d24048d2cb4091943fde8b6ac1490381035ce2ffb16de1675cbcc946081"
     end
   end
 
